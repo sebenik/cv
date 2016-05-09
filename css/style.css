@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600');
+
+body {
+}
+
+* {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1em;
+}
+
+a, a:hover, a:active, a:visited {
+	font-size: 16px;
+	color: #aa0000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+hr {
+	margin: .5rem 0;
+}
+
+img {
+	max-height: 120px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 5px 0;
+	word-break: break-all;
+}
+
+table tr:first-child {
+	border-top: none;
+}
+
+table tr:last-child {
+	border-bottom: none;
+}
+
+table tr {
+	border-bottom: 1px dashed gray;
+	border-top: 1px dashed gray;
+}
+
+table td {
+	white-space:nowrap;
+	padding-right: 15px;
+}
+
+ul {
+	list-style: square outside none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 600;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 2em;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: .3rem 0;
+}
+h3 {
+	font-size: 1.4em;
+	font-style: italic;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: .3rem 0;
+}
+
+#wrapper {
+	max-width: 1000px;
+	margin: 10px auto;
+}
+
+#cv {
+	background-color: rgba(0, 0, 0, 0.05);
+	border-top: 5px solid #000;
+	border-bottom: 5px solid #000;
+}
+
+#cv>hr{
+	margin: 5px 15px;
+}
+
+#foot {
+	height: 45px;
+}
+
+#foot span {
+	position: relative;
+	margin: 0 15px;
+}
+
+#foot span:before {
+	content: '';
+	position: absolute;
+	height: 4px;
+	width: 4px;
+	top: 50%;
+	right: 0px;
+	background: #000;
+}
+
+#contact-info {
+	margin-top: 10px;
+}
+
+.section {
+	margin-top: 20px;
+}
+
+.table-container {
+	overflow-x: auto;
+}
+
+.job-title {
+	display: flex;
+	width: 100%;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.job-title > div{
+	font-size: 1.1em;
+}
+
+.job-title-year {
+	min-width: 180px;
+}
+
+.text-strong {
+	font-weight: 600;
+}
+
