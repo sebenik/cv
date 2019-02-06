@@ -80,6 +80,23 @@ h3 {
 	margin: .3rem 0;
 }
 
+#download {
+	margin-bottom: 10px;
+}
+
+#download button {
+  background: none;
+  border: 2px solid #000;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+#download button:hover, #download button:active {
+	color: #aa0000;
+}
+
 #wrapper {
 	max-width: 1000px;
 	margin: 10px auto;
